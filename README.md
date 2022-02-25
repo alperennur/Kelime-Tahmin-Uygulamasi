@@ -1,2 +1,2 @@
 # Kelime-Tahmin-Uygulamasi
-<img src="Screenshots/homepage.png">
+<img src="Screenshots/homepage.png" width="100">
