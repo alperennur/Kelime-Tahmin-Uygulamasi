@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.alperennur.kelimetahmin.fragment.HomePageFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/homePageToGuessPage"
+            app:destination="@id/guessPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guessPageFragment"
+        android:name="com.alperennur.kelimetahmin.fragment.GuessPageFragment"
+        android:label="fragment_guess_page"
+        tools:layout="@layout/fragment_guess_page" >
+        <action
+            android:id="@+id/guessPageToResult"
+            app:destination="@id/resultPageFragment"
+            app:popUpTo="@id/guessPageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultPageFragment"
+        android:name="com.alperennur.kelimetahmin.fragment.ResultPageFragment"
+        android:label="fragment_result_page"
+        tools:layout="@layout/fragment_result_page" >
+        <argument
+            android:name="result"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.alperennur.kelimetahmin.fragment.ProfileFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
