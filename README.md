@@ -1,4 +1,4 @@
-<h1> Kelime-Tahmin-Uygulamasi <h1>
+<h1> Kelime-Tahmin-Uygulamasi<h1>
 
 <b>- Fragment</b>
 <br>
