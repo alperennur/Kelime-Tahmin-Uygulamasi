@@ -1,4 +1,2 @@
 # Kelime-Tahmin-Uygulamasi
-
-
-![](src="sreenshots/homepage.png")
+<img src="Screenshots/homepage.png">
