@@ -1,6 +1,5 @@
 # Kelime-Tahmin-Uygulamasi
-<b>
-- Fragment
+<b>- Fragment</b>
 - Navigation Component(NavGraph, BottomNav)
-  </b>
+ 
 <img src="Screenshots/homepage.png" width="150">
