@@ -1,8 +1,8 @@
 <h1> Kelime-Tahmin-Uygulamasi</h1>
 
-<b>- Fragment</b>
+<h2><b>- Fragment</b>
 <br>
-<b>- Navigation Component(NavGraph, BottomNav)</b>
+<b>- Navigation Component(NavGraph, BottomNav)</b></h2>
  
 <img src="Screenshots/homepage.png" width="150">
 Deneme yazısı
